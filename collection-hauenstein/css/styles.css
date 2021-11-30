@@ -1,0 +1,283 @@
+html {
+box-sizing : border-box;
+}
+*, *:before, *:after {
+box-sizing : inherit;
+}
+img {
+max-width : 100%;
+border-radius : 8px;
+}
+html {
+box-sizing : border-box;
+}
+*, *:before, *:after {
+box-sizing : inherit;
+}
+.container {
+background-color : white;
+color: #003951;
+display : grid;
+gap : 10px;
+grid-auto-flow : dense;
+
+}
+.item1 {
+grid-column : 1 / span 2;
+grid-row : 1;
+}
+.item2 {
+grid-column : 1 / span 2;
+grid-auto-flow : dense;
+font-family : helvetica;
+font-size : 14pt;
+font-weight : lighter;
+line-height : 1.6;
+letter-spacing : 1.3px;
+color : #003951;
+}
+.item3 {
+grid-column : 1 / span 2;
+color : #003951;
+font-family : helvetica;
+text-align : left;
+max-width : 80%;
+margin-left : auto;
+margin-right : auto;
+}
+.item4 {
+grid-column : 1 / span 2;
+grid-row-start : 4;
+color : #003951;
+font-family : helvetica;
+text-align : left;
+max-width : 80%;
+margin-left : auto;
+margin-right : auto;
+}
+.item5 {
+grid-column : 1 / span 2;
+grid-row : 5;
+color : #003951;
+font-family : helvetica;
+max-width : 80%;
+margin-left : auto;
+margin-right : auto;
+}
+.item6 {
+grid-column : 1 / span 2;
+grid-row : 6;
+color : #003951;
+font-family : helvetica;
+max-width : 80%;
+margin-left : auto;
+margin-right : auto;
+}
+.item7 {
+grid-column : 1 / span 2;
+grid-row : 7;
+color : #003951;
+font-family : helvetica;
+max-width : 80%;
+margin-left : auto;
+margin-right : auto;
+}
+.item8 {
+grid-column : 1 / span 2;
+grid-row : 8;
+color : #003951;
+font-family : helvetica;
+max-width : 80%;
+margin-left : auto;
+margin-right : auto;
+}
+.item9 {
+grid-column : 1 / span 2;
+grid-row : 9;
+color : #003951;
+font-family : helvetica;
+max-width : 80%;
+margin-left : auto;
+margin-right : auto;
+}
+.item10 {
+grid-row : 10;
+max-width : 80%;
+color : #003951;
+font-family : helvetica;
+margin-left : auto;
+margin-right : auto;
+}
+.item11 {
+grid-row : 11;
+max-width : 80%;
+color : #003951;
+font-family : helvetica;
+margin-left : auto;
+margin-right : auto;
+}
+.item12 {
+grid-row : 12;
+max-width : 80%;
+color : #003951;
+font-family : helvetica;
+margin-left : auto;
+margin-right : auto;
+}
+.item13 {
+grid-column : 1 / span 2;
+grid-row : 13;
+color: #003951;
+}
+@media (min-width: 600px) {
+.container {
+background-color : white;
+display : grid;
+gap : 10px;
+grid-auto-flow : dense;
+}
+.item1 {
+grid-column : 1 / span 2;
+grid-row-start : 1;
+}
+.item2 {
+grid-column : 1 / span 2;
+grid-auto-flow : dense;
+font-family : helvetica;
+font-size : 14pt;
+font-weight : lighter;
+color : #003951;
+}
+.item3 {
+grid-column : 1 / span 2;
+color : #003951;
+font-family : helvetica;
+text-align : left;
+}
+.item4 {
+grid-column : 1 / span 2;
+grid-row-start : 4;
+font-family : helvetica;
+text-align : left;
+}
+.item5 {
+grid-column : 1;
+grid-row : 5;
+}
+.item6 {
+grid-column : 1;
+grid-row : 6;
+}
+.item7 {
+grid-column : 1;
+grid-row : 7;
+}
+.item8 {
+grid-column : 1;
+grid-row : 8;
+}
+.item9 {
+grid-column : 1;
+grid-row : 9;
+}
+.item10 {
+grid-column : 1;
+grid-row : 10;
+}
+.item11 {
+grid-column : 1;
+grid-row : 11;
+}
+.item12 {
+grid-column : 1;
+grid-row : 12;
+}
+.item13 {
+color :  #003951;
+grid-column : 1;
+grid-row : 13;
+}
+}
+@media (min-width: 1000px) {
+.container {
+display : grid;
+grid-template-columns : 1fr 1fr;
+grid-template-rows: repeat(3,1fr, 1fr,1fr,1fr, 1fr, 1fr);
+gap : 0.50em 0.50em;
+grid-auto-flow : dense;
+color : #003951;
+}
+.item2 {
+grid-column : 1 / span 2;
+grid-auto-flow : dense;
+font-family : helvetica;
+font-size : 16pt;
+font-weight : lighter;
+color : #003951;
+}
+.item3 {
+grid-column : 1;
+grid-row : 3;
+max-width : 80%;
+margin-left : auto;
+margin-right : auto;
+}
+.item4 {
+grid-column : 2;
+grid-row : 3;
+max-width : 80%;
+margin-left : auto;
+margin-right : auto;
+}
+.item5 {
+grid-column : 1;
+grid-row : 4;
+}
+.item6 {
+grid-column : 2;
+grid-row : 4;
+}
+.item7 {
+grid-column : 1;
+grid-row : 5;
+}
+.item8 {
+grid-column : 2;
+grid-row : 5;
+}
+.item9 {
+grid-column : 1;
+grid-row : 6;
+max-width : 40%;
+margin-left : auto;
+margin-right : auto;
+
+}
+.item10 {
+grid-column : 2;
+grid-row : 6;
+max-width : 40%;
+margin-left : auto;
+margin-right : auto;
+}
+.item11 {
+grid-column : 1;
+grid-row : 7;
+max-width : 40%;
+margin-left : auto;
+margin-right : auto;
+}
+.item12 {
+grid-column : 2;
+grid-row : 7;
+max-width : 40%;
+margin-left : auto;
+margin-right : auto;
+}
+.item13 {
+grid-column : 1 / span 2;
+grid-row : 8;
+background-color : #ABBADC;
+color : #003951;
+}
+}
